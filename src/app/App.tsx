@@ -9,7 +9,9 @@ import { FavoritesPage } from '../pages/Favorites';
 import './App.css';
 
 export const App = () => {
-  const [favorites, setFavorites] = useState<string[]>([]);
+  const [favorites, setFavorites] = useState<string[]>(
+    JSON.parse(localStorage.getItem('favorites') || '[]')
+  );
   const [selectedLocality, setSelectedLocality] = useState<Locality['id']>(LOCALITY[0].id);
   const [isMobileState, setIsMobileState] = useState(window.innerWidth <= 768);
   const [isSmallMobileState, setIsSmallMobileState] = useState(window.innerWidth <= 480);
@@ -25,16 +27,8 @@ export const App = () => {
   }, []);
 
   useEffect(() => {
-    const favoritesFromLS = localStorage.getItem('favorites');
-    if (favoritesFromLS) {
-      const parsedFavorites = JSON.parse(favoritesFromLS) as string[];
-      setFavorites(parsedFavorites);
-    }
-
-    return () => {
-      localStorage.setItem('favorites', JSON.stringify(favorites));
-    };
-  }, []);
+    localStorage.setItem('favorites', JSON.stringify(favorites));
+  }, [favorites]);
 
   return (
     <BrowserRouter>

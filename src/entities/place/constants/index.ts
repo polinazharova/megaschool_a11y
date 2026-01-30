@@ -4,7 +4,8 @@ import { Accessibility } from '../../accessibility/model/types';
 export const MOCK_PLACES: Place[] = [
   {
     id: '1',
-    photo: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Starbucks Coffee',
     address: 'ул. Тверская, 15',
     localityId: 'moscow',
@@ -25,7 +26,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '2',
-    photo: 'https://images.unsplash.com/photo-1540224871915-bc8ffb782bdf',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Государственный Эрмитаж',
     address: 'Дворцовая площадь, 2',
     localityId: 'spb',
@@ -51,7 +53,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '3',
-    photo: 'https://images.unsplash.com/photo-1571607388263-1044f9ea01dd',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Городская больница №1',
     address: 'ул. Ленина, 87',
     localityId: 'ekb',
@@ -77,7 +80,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '4',
-    photo: 'https://images.unsplash.com/photo-1528109966605-5b6e6d5eaa4f',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'ТРЦ "Мега"',
     address: 'пр. Космонавтов, 14',
     localityId: 'novosibirsk',
@@ -98,7 +102,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '5',
-    photo: 'https://images.unsplash.com/photo-1570829460005-c840387bb1ca',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Парк Горького',
     address: 'Крымский Вал, 9',
     localityId: 'moscow',
@@ -119,7 +124,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '6',
-    photo: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Ресторан "Пушкин"',
     address: 'ул. Байкальская, 25',
     localityId: 'kazan',
@@ -140,7 +146,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '7',
-    photo: 'https://images.unsplash.com/photo-1528837516156-0a7225a43641',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Фитнес-центр "Атлетика"',
     address: 'ул. Спортивная, 3',
     localityId: 'nn',
@@ -161,7 +168,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '8',
-    photo: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Сбербанк',
     address: 'пр. Ленина, 45',
     localityId: 'krasnodar',
@@ -182,7 +190,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '9',
-    photo: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Метро "Площадь Революции"',
     address: 'пл. Революции, 1',
     localityId: 'moscow',
@@ -201,7 +210,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '10',
-    photo: 'https://images.unsplash.com/photo-1566073771259-6a8506099945',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Отель "Метрополь"',
     address: 'ул. Театральная, 2',
     localityId: 'moscow',
@@ -222,7 +232,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '11',
-    photo: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Кинотеатр "Формула Кино"',
     address: 'ул. Кирова, 12',
     localityId: 'vladivostok',
@@ -243,7 +254,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '12',
-    photo: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Аптека "36.6"',
     address: 'ул. Зеленая, 7',
     localityId: 'spb',
@@ -262,7 +274,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '13',
-    photo: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Салон красоты "Элита"',
     address: 'ул. Мира, 33',
     localityId: 'ekb',
@@ -278,7 +291,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '14',
-    photo: 'https://images.unsplash.com/photo-1568702846914-96b305d2aaeb',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Кафедральный собор',
     address: 'ул. Соборная, 1',
     localityId: 'novosibirsk',
@@ -294,7 +308,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '15',
-    photo: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Детский сад "Солнышко"',
     address: 'ул. Детская, 5',
     localityId: 'kazan',
@@ -315,7 +330,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '16',
-    photo: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Кофейня "Кофе Хауз"',
     address: 'пр. Победы, 21',
     localityId: 'nn',
@@ -331,7 +347,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '17',
-    photo: 'https://images.unsplash.com/photo-1573164713988-8665fc963095',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Аквапарк "Океан"',
     address: 'ул. Водная, 8',
     localityId: 'krasnodar',
@@ -352,7 +369,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '18',
-    photo: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Магазин "Магнит"',
     address: 'ул. Центральная, 42',
     localityId: 'vladivostok',
@@ -368,7 +386,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '19',
-    photo: 'https://images.unsplash.com/photo-1579931794097-0ad001e51edb',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Библиотека им. Ленина',
     address: 'ул. Книжная, 15',
     localityId: 'moscow',
@@ -384,7 +403,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '20',
-    photo: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Станция технического обслуживания',
     address: 'ул. Автомобильная, 30',
     localityId: 'spb',
@@ -405,7 +425,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '21',
-    photo: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Офис Google',
     address: 'ул. Балчуг, 7',
     localityId: 'moscow',
@@ -426,7 +447,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '22',
-    photo: 'https://images.unsplash.com/photo-1573247375456-3ca49ae21016',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'МФЦ "Мои документы"',
     address: 'ул. Павла Корчагина, 3',
     localityId: 'ekb',
@@ -442,7 +464,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '23',
-    photo: 'https://images.unsplash.com/photo-1515168833906-d2a3b82b5d63',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Суши-бар "Токио"',
     address: 'ул. Японская, 11',
     localityId: 'novosibirsk',
@@ -458,7 +481,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '24',
-    photo: 'https://images.unsplash.com/photo-1519677100203-5f3a5d4f09f7',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Спортивный комплекс "Олимпийский"',
     address: 'пр. Олимпийский, 16',
     localityId: 'kazan',
@@ -479,7 +503,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '25',
-    photo: 'https://images.unsplash.com/photo-1553531768-9dd6d1c1f4b0',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Вокзал "Казань-Пассажирская"',
     address: 'пл. Вокзальная, 1',
     localityId: 'kazan',
@@ -500,7 +525,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '26',
-    photo: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Гостиница "Волга"',
     address: 'наб. Волги, 25',
     localityId: 'nn',
@@ -516,7 +542,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '27',
-    photo: 'https://images.unsplash.com/photo-1582719508461-905c673771fd',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Круглосуточная аптека',
     address: 'ул. Ночная, 3',
     localityId: 'krasnodar',
@@ -532,7 +559,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '28',
-    photo: 'https://images.unsplash.com/photo-1511578314322-379afb476865',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Боулинг-клуб "Страйк"',
     address: 'ул. Развлекательная, 9',
     localityId: 'vladivostok',
@@ -548,7 +576,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '29',
-    photo: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Пиццерия "Додо Пицца"',
     address: 'ул. Пиццерийная, 4',
     localityId: 'moscow',
@@ -569,7 +598,8 @@ export const MOCK_PLACES: Place[] = [
   },
   {
     id: '30',
-    photo: 'https://images.unsplash.com/photo-1563903530908-afdd155d057a',
+    photo:
+      'https://www.restoclub.ru/uploads/place_thumbnail_big/b/1/2/4/b1245fb7085290d2ee03bbf4933c8515.jpg',
     name: 'Стоматологическая клиника "Дентал"',
     address: 'ул. Стоматологическая, 12',
     localityId: 'spb',

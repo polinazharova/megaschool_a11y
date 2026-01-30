@@ -102,6 +102,11 @@ export const PlacesBlock: React.FC<PlacesBlockProps> = ({
   };
 
   const onFavoriteClick = (id: string) => {
+    const isFavRemoved = favorites.find((favorite) => favorite === id);
+    if (isFavRemoved) {
+      setFavorites(favorites.filter((favorite) => favorite !== id));
+      return;
+    }
     setFavorites([...favorites, id]);
   };
 
